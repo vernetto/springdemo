@@ -15,4 +15,7 @@ public class HelloWorld {
         System.out.println("init called!");
     }
 
+    public void destroy() {
+        System.out.println("destroy called!");
+    }
 }

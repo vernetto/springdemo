@@ -12,5 +12,6 @@ public class MainApp {
         HelloWorld obj2 = (HelloWorld) context.getBean("helloWorld");
         obj2.getMessage();
 
+
     }
 }

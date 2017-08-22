@@ -8,4 +8,5 @@ git checkout v003 // 2 beans, singleton
 
 git checkout v004 // 2 beans, prototype
 
+git checkout v005 // init method
   
