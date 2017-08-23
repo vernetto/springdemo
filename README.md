@@ -12,7 +12,11 @@ git checkout v005 // init method
 
 git checkout v006_1 // destroy not working
 
-git checkout v006_2 // destroy working
+git checkout v006_2 // destroy still not working
+
+git checkout v006_3 // destroy working
+
+git checkout v006_4 // destroy with DisposableBean 
 
 
   

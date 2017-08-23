@@ -1,6 +1,8 @@
 package com.tutorialspoint;
 
-public class HelloWorld {
+import org.springframework.beans.factory.DisposableBean;
+
+public class HelloWorld implements DisposableBean {
     private String message;
 
     public void setMessage(String message){
@@ -15,6 +17,7 @@ public class HelloWorld {
         System.out.println("init called!");
     }
 
+    @Override
     public void destroy() {
         System.out.println("destroy called!");
     }
